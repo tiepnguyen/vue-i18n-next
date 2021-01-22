@@ -295,7 +295,7 @@ export default {
 }
 ```
 
-The above code sets the `useI18n` option to `useScope: 'global'`, which allows `useI18n` to return a Composer instance that can be accessed by the i18n instance `global` property. This allows `useI18n` to return the Composer instance that can be accessed by i18n instance`global` property, which is a global scope. The Commposer instance is a global scope.
+The above code sets the `useI18n` option to `useScope: 'global'`. This allows `useI18n` to return a Composer instance that can be accessed by i18n instance`global` property, which is a global scope. The Commposer instance is a global scope.
 
 Then you can compose using the functions and properties exposed from the Composer instance.
 
